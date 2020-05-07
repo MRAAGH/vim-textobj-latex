@@ -10,8 +10,8 @@ endif
 call textobj#user#plugin('latex', {
 \   'environment': {
 \     '*pattern*': ['\\begin{[^}]\+}.*\n\s*', '\n^\s*\\end{[^}]\+}.*$'],
-\     'select-a': 'ae',
-\     'select-i': 'ie',
+\     'select-a': 'al',
+\     'select-i': 'il',
 \   },
 \  'bracket-math': {
 \     '*pattern*': ['\\\[', '\\\]'],
